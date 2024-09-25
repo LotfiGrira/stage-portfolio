@@ -1,0 +1,76 @@
+.label{
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+form input, form textarea{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #f4f4f4;
+}
+.form input,
+.form textarea {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background-color: yellow;
+  color: black;
+}
+.form input, 
+.form textarea {
+  border: 2px solid #fff; /* Bordure blanche */
+  padding: 10px;
+}
+
+.btn {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+}
+.form {
+    background-color: #000; /* fond noir */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form input, 
+  .form textarea {
+    background-color: #fff; /* fond blanc pour les champs */
+    color: #000; /* texte noir */
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    background-color: yellow; /* bouton visible */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #f0c800; /* couleur du bouton au survol */
+  }
+  .label {
+    color: rgb(240, 10, 10); /* Labels en rouge */
+    margin-bottom: 0.5rem;
+}

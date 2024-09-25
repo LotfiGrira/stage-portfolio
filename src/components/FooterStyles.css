@@ -1,0 +1,64 @@
+
+.footer {
+  background-color: rgb(10, 4, 22);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important;
+}
+
+/* Conteneur global avec Flexbox pour l'alignement */
+.footer .footer-container {
+  display: flex;
+  justify-content: space-between; /* Distribution entre gauche, centre et droite */
+  align-items: center;
+  flex-wrap: wrap; /* Pour s'assurer que ça reste responsive */
+  padding: 0 10px;
+}
+
+.footer-copywright {
+  color: white;
+  margin: 0;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: flex-end; /* Aligner les icônes à droite */
+}
+
+.footer-icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-icons li {
+  margin-left: 10px; /* Espacement entre les icônes */
+}
+
+.footer-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* Responsive pour mobile */
+@media (max-width: 767px) {
+  .footer .footer-container {
+    flex-direction: column; /* Aligne les éléments verticalement sur les petits écrans */
+    text-align: center;
+  }
+
+  .footer-body {
+    justify-content: center;
+  }
+
+  .footer-icons li {
+    margin-left: 5px;
+  }
+}
+
+.footer h3 {
+  font-size: 1em;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
